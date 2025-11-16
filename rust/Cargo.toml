@@ -1,0 +1,9 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+opencv = "0.94"   # exemplo – usar a versão estável atual
+anyhow = "1"      # para tratar erro de forma mais amigável
+
