@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
-include_directories(src)
+include_directories(h)
 
 # Biblioteca para funções de rotação
 add_library(rotaciona_lib src/rotaciona_main.cpp)
